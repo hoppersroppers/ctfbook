@@ -2,17 +2,41 @@
   "name": "book",
   "version": "0.0.1",
   "description": "A Test GitBook",
+  
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "-livereload",
+    "-sharing",
+    "github-buttons",
+    "editlink",
+    "ga",
+    "-highlight",
+    "prism",
+    "bibtex-indexed-cite",
+    "anchor-navigation-ex",
+    "page-footer-ex",
+    "splitter",
+    "todo",
+    "copy-code-button",
+    "expandable-chapters-small",
+    "donate"
+  ],
   "repository": {
     "url": "git@github.com:gldraphael/gitbook-test.git",
     "type": "git"
   },
-  "author": "gldraphael",
-  "license": "MIT",
+  "author": "Dennis Devey",
+  "license": "Copyright",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
     "gulp-load-plugins": "^1.3.0"
   }
+  "ga": {
+      "token": "UA-151638088-2"
+   },
  
 }
 
