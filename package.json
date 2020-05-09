@@ -1,7 +1,8 @@
 {
-  "name": "book",
+  "name": "CTF Book",
   "version": "0.0.1",
   "description": "A Test GitBook",
+  "title": "title",
   
   "plugins": [
     "-lunr",
@@ -21,7 +22,6 @@
     "todo",
     "copy-code-button",
     "expandable-chapters-small",
-    "donate"
   ],
   "repository": {
     "url": "git@github.com:gldraphael/gitbook-test.git",
@@ -37,6 +37,26 @@
   "ga": {
       "token": "UA-151638088-2"
    },
+      "page-footer-ex": {
+      "copyright": "Roppers Academy &copy 2019",
+      "markdown": true,
+      "update_label": "Date: ",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
+    },
+      "github-buttons": {
+      "buttons": [{
+        "user": "riskers",
+        "repo": "gitbook-template",
+        "type": "star",
+        "size": "small",
+        "count": true
+      }]
+    },
+    "editlink": {
+      "base": "https://github.com/hoppersroppers/ctfbook/blob/master",
+      "label": "Edit",
+      "multilingual": false
+    },
  
 }
 
